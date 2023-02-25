@@ -1,0 +1,112 @@
+body {
+  background: url(./assets/bg.jpeg);
+  background-size: cover;
+  font-family: Inter, sans-serif;
+}
+
+.main--container {
+  width: 70%;
+  background: rgba(026, 027, 033, 0.5);
+  border-radius: 0.5rem;
+  text-align: left;
+  backdrop-filter: blur(10px);
+  opacity: 10px;
+  margin: 0 auto;
+}
+
+.inner--container {
+  display: flex;
+  flex-direction: grid;
+}
+
+
+.info--photo {
+  height: 100%;
+  width: 317px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 0.5rem 0 0 0;
+}
+
+.photo--wrappper{
+  margin: 0;
+  padding: 0;
+}
+
+.info--wrapper {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.info--name {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.info--job {
+  padding: 0;
+  margin: 0;
+  font-size: small;
+  color: #F3BF99;
+}
+
+.buttons {
+  display: flex;
+  justify-content: left;
+}
+
+button {
+  border-radius: 0.2rem;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem 0.4rem;
+  justify-content: space-evenly;
+  background-color: #161619;
+}
+
+.info--email {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 0.2rem;
+  margin-right: 2rem;
+}
+
+.info--linkedin {
+  background: #5093E2;
+  color: #ffffff;
+  border-radius: 0.2rem;
+}
+
+.linkedin--icon {
+  color: #ffffff;
+}
+
+.about--container, .inner--container {
+  margin-top: 24px;
+}
+
+.title {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+.content {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer--container {
+  background: #161619;
+  color: #ffffff;
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-around;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.footer--container > button {
+  background: transparent;
+  
+}
