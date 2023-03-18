@@ -2,6 +2,8 @@ body {
   background: url(./assets/bg.jpeg);
   background-size: cover;
   font-family: Inter, sans-serif;
+  height: 100dvh;
+  width: 100dvh;
 }
 
 .main--container {
