@@ -3,7 +3,7 @@ body {
   background-size: cover;
   font-family: Inter, sans-serif;
   height: 100dvh;
-  width: 100dvh;
+  width: 100%;
 }
 
 .main--container {
@@ -13,7 +13,9 @@ body {
   text-align: left;
   backdrop-filter: blur(10px);
   opacity: 10px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .inner--container {
