@@ -110,3 +110,18 @@ button {
   background: transparent;
   
 }
+
+@media (width < 60em) {
+  .inner--container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info--photo {
+    height: 20em;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 0.5rem 0.5em 0 0;
+  }
+}
