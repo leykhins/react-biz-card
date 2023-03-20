@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+.App {
   background: url(./assets/bg.jpeg);
   background-size: cover;
   font-family: Inter, sans-serif;
@@ -12,6 +12,7 @@ body {
   justify-content: center;
   justify-self: center;
   align-items: center;
+  padding-inline: 1em;
 }
 
 .main--container {
@@ -61,16 +62,18 @@ body {
 .buttons {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 button {
   border-radius: 0.2rem;
-  width: 10.3em;
+  width: 8em;
   display: flex;
   justify-content: center;
+  gap: 1em;
   padding: 0.2rem 0.4rem;
-  justify-content: space-evenly;
   background-color: #161619;
+  flex-grow: 1;
 }
 
 .info--email {
@@ -90,15 +93,15 @@ button {
   color: #ffffff;
 }
 
-.about--container, .inner--container {
-  margin-top: 2.4em;
-}
-
 .title {
   font-size: 1.2em;
   margin: 0;
   padding: 0;
   line-height: 0;
+}
+
+.about--container, .int-container {
+  padding-block: 2em;
 }
 
 .content {
@@ -132,5 +135,9 @@ button {
     object-fit: cover;
     object-position: top center;
     border-radius: 0.5rem 0.5em 0 0;
+  }
+
+  .main--container {
+    width: 90%;
   }
 }
