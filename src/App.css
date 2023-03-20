@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url(./assets/bg.jpeg);
   background-size: cover;
