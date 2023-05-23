@@ -13,6 +13,7 @@
   justify-self: center;
   align-items: center;
   padding-inline: 1em;
+  color: #ffffff;
 }
 
 .main--container {
@@ -65,15 +66,23 @@
   align-items: flex-start;
 }
 
-button {
+.button {
   border-radius: 0.2rem;
   width: 8em;
+  height: 3em;
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 1em;
   padding: 0.2rem 0.4rem;
   background-color: #161619;
   flex-grow: 1;
+}
+
+.button:hover {
+  margin-top: -0.5em;
+  transition: all ease-in-out;
+  transition-duration: 200ms;
 }
 
 .info--email {
@@ -83,10 +92,18 @@ button {
   margin-right: 2rem;
 }
 
+.info--email:hover {
+  color: #000000;
+}
+
 .info--linkedin {
   background: #5093E2;
   color: #ffffff;
   border-radius: 0.2rem;
+}
+
+.info--linkedin:hover {
+  color: #ffffff;
 }
 
 .linkedin--icon {

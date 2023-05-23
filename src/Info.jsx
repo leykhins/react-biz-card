@@ -15,14 +15,14 @@ function Info() {
             <p className='info--job'>Frontend Developer</p>
             <p className='info--site'>leykhins.io</p>
             <div className='buttons'>
-                <button className='info--email'>
+                <a href="mailto:lekins101@gmail.com" className='info--email button'>
                     <i className='bx bxs-envelope' ></i>
                     Email
-                </button>
-                <button className='info--linkedin'>
+                </a>
+                <a href="https://linkedin.com/in/leykhins" className='info--linkedin button'>
                     <i className='bx bxl-linkedin' ></i>
                     LinkedIn
-                </button>
+                </a>
             </div>
         </div>
     )
